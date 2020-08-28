@@ -17,7 +17,9 @@ const Login = () => {
   );
 };
 
-const Layout = styled.div``;
+const Layout = styled.div`
+  margin-top: 100px;
+`;
 
 const Container = styled.div`
   display: flex;
@@ -30,6 +32,7 @@ const Img = styled.div`
   background-size: 300px 600px;
   width: 300px;
   height: 600px;
+  margin-right: 15px;
 `;
 
 export default Login;
